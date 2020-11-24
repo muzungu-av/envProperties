@@ -1,4 +1,4 @@
-package org.envproperties;
+package org.envProperties;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

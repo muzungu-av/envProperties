@@ -1,4 +1,4 @@
-package org.envproperties;
+package org.envProperties;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -23,11 +23,11 @@ class Props {
 }
 
 public class EnvPropertiesTest {
-    Map<String, String> envMap;
-    final String JAVA_HOME = "JAVA_HOME";
-    final String PATH = "PATH";
-    String JAVA_HOME_VALUE = "";
-    String PATH_VALUE = "";
+    private Map<String, String> envMap;
+    private final String JAVA_HOME = "JAVA_HOME";
+    private final String PATH = "PATH";
+    private String JAVA_HOME_VALUE = "";
+    private String PATH_VALUE = "";
 
     @Before
     public void beforeTest() {
