@@ -5,7 +5,7 @@
 Wrap over System.getenv command
 
 ### How to use it
-Используй возможность проекта Jitpack.
+Use feature of the Jitpack project.
 Declare the repository:
 
     <repository>
