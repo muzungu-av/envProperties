@@ -25,7 +25,7 @@ public class EnvProperties {
      * @throws NoSuchMethodException
      * @throws IllegalAccessException
      * @throws InvocationTargetException
-     * @throws InstantiationException 
+     * @throws InstantiationException
      */
     public static <T> T readEnv(Class<T> clazz) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
         envMap = System.getenv();
